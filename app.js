@@ -1,11 +1,3 @@
-//const PBrowser = document.querySelector('#fee')
-const body = d3.select('body')
+const x = d3.selectAll("#foo").style("color", "blue");
 
-const p = body.append('p')
-    .attr('class', 'foo')
-    .text('Hellow World!')
-
-const p2 = d3.select('.foo')
-
-//console.log(PBrowser)
-console.log(p2) 
+console.log(x)
